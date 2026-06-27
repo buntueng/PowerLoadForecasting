@@ -1,0 +1,18 @@
+1. Set up the environment
+	pip install --upgrade pip
+	pip install numpy pandas scikit-learn scipy matplotlib torch optuna vmdpy kagglehub nbformat jupyterlab
+
+2. Download the data
+download_data.py pulls the BDG2 dataset through KaggleHub, so you need Kaggle credentials first (from your Kaggle account → Settings → Create New Token, which gives kaggle.json):
+	export KAGGLE_USERNAME=your_username
+	export KAGGLE_KEY=your_key
+	python download_data.py
+This creates meters/cleaned/electricity_cleaned.csv plus a small validation report. Add --force to re-download.
+
+3. Run the experiments
+	python run_all_experiments.py
+Everything lands in results_all_experiments/ (metrics, predictions, statistics). It uses the GPU automatically if torch.cuda.is_available(), otherwise CPU.
+
+4. Generate the tables and figures
+	jupyter lab analyze_results.ipynb
+Run the cells top to bottom; PNGs and booktabs .tex files are written to figures/.
