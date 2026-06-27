@@ -1,0 +1,86 @@
+============================================================
+  PLOT TIMESTAMP REPORT  (Combined VMD-Optuna-TCN)
+============================================================
+  Split : Train=70%  Val=10%  Test=20%
+  seq_len=96h  pred_len=24h
+============================================================
+
+[ Main Buildings ]
+------------------------------------------------------------
+
+  Building      : Wolf
+  N predictions : 3264
+  Pred start    : 2017-07-18 00:00:00  <- Plot 1 & 2 start
+  Pred end      : 2017-11-30 23:00:00    <- Plot 1 end
+  7-day zoom    : 2017-07-18 00:00:00 -> 2017-07-24 23:00:00  <- Plot 2 end
+
+  Building      : Bull
+  N predictions : 3264
+  Pred start    : 2017-07-18 00:00:00  <- Plot 1 & 2 start
+  Pred end      : 2017-11-30 23:00:00    <- Plot 1 end
+  7-day zoom    : 2017-07-18 00:00:00 -> 2017-07-24 23:00:00  <- Plot 2 end
+
+  Building      : Robin
+  N predictions : 3264
+  Pred start    : 2017-07-18 00:00:00  <- Plot 1 & 2 start
+  Pred end      : 2017-11-30 23:00:00    <- Plot 1 end
+  7-day zoom    : 2017-07-18 00:00:00 -> 2017-07-24 23:00:00  <- Plot 2 end
+
+  Building      : Fox
+  N predictions : 3264
+  Pred start    : 2017-07-18 00:00:00  <- Plot 1 & 2 start
+  Pred end      : 2017-11-30 23:00:00    <- Plot 1 end
+  7-day zoom    : 2017-07-18 00:00:00 -> 2017-07-24 23:00:00  <- Plot 2 end
+
+  Building      : Rat
+  N predictions : 3264
+  Pred start    : 2017-07-18 00:00:00  <- Plot 1 & 2 start
+  Pred end      : 2017-11-30 23:00:00    <- Plot 1 end
+  7-day zoom    : 2017-07-18 00:00:00 -> 2017-07-24 23:00:00  <- Plot 2 end
+
+  Building      : Eagle
+  N predictions : 3264
+  Pred start    : 2017-07-18 00:00:00  <- Plot 1 & 2 start
+  Pred end      : 2017-11-30 23:00:00    <- Plot 1 end
+  7-day zoom    : 2017-07-18 00:00:00 -> 2017-07-24 23:00:00  <- Plot 2 end
+
+
+[ Holdout (Dec 2017) ]
+  Period : 2017-12-01 -> 2017-12-31
+------------------------------------------------------------
+
+  Building      : Wolf
+  N predictions : 648
+  Pred start    : 2017-12-05 00:00:00  <- Plot 15 & 16 start
+  Pred end      : 2017-12-31 23:00:00    <- Plot 15 end
+  7-day zoom    : 2017-12-05 00:00:00 -> 2017-12-11 23:00:00  <- Plot 16 end
+
+  Building      : Bull
+  N predictions : 648
+  Pred start    : 2017-12-05 00:00:00  <- Plot 15 & 16 start
+  Pred end      : 2017-12-31 23:00:00    <- Plot 15 end
+  7-day zoom    : 2017-12-05 00:00:00 -> 2017-12-11 23:00:00  <- Plot 16 end
+
+  Building      : Robin
+  N predictions : 648
+  Pred start    : 2017-12-05 00:00:00  <- Plot 15 & 16 start
+  Pred end      : 2017-12-31 23:00:00    <- Plot 15 end
+  7-day zoom    : 2017-12-05 00:00:00 -> 2017-12-11 23:00:00  <- Plot 16 end
+
+  Building      : Fox
+  N predictions : 648
+  Pred start    : 2017-12-05 00:00:00  <- Plot 15 & 16 start
+  Pred end      : 2017-12-31 23:00:00    <- Plot 15 end
+  7-day zoom    : 2017-12-05 00:00:00 -> 2017-12-11 23:00:00  <- Plot 16 end
+
+  Building      : Rat
+  N predictions : 648
+  Pred start    : 2017-12-05 00:00:00  <- Plot 15 & 16 start
+  Pred end      : 2017-12-31 23:00:00    <- Plot 15 end
+  7-day zoom    : 2017-12-05 00:00:00 -> 2017-12-11 23:00:00  <- Plot 16 end
+
+  Building      : Eagle
+  N predictions : 648
+  Pred start    : 2017-12-05 00:00:00  <- Plot 15 & 16 start
+  Pred end      : 2017-12-31 23:00:00    <- Plot 15 end
+  7-day zoom    : 2017-12-05 00:00:00 -> 2017-12-11 23:00:00  <- Plot 16 end
