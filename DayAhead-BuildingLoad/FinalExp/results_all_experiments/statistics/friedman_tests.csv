@@ -1,0 +1,5 @@
+Metric,Friedman_Statistic,P_Value,N_Blocks,N_Models,Significant_at_alpha,Note
+MAE,16.01538461538462,0.0011257782090149868,13,4,True,Lower rank is better for this metric.
+RMSE,24.784615384615392,1.7127261178145114e-05,13,4,True,Lower rank is better for this metric.
+MAPE,15.184615384615398,0.0016654893176069935,13,4,True,Lower rank is better for this metric.
+SMAPE,17.400000000000006,0.00058472022060473,13,4,True,Lower rank is better for this metric.

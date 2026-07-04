@@ -1,0 +1,2 @@
+Seed,Model,Trainable_Params,Training_Time_sec,Learning_Rate,Epochs,Device
+42,TCN,133816,94.9324,0.0033057094655629476,25,cuda

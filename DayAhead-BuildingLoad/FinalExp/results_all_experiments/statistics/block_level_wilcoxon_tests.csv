@@ -1,0 +1,13 @@
+Metric,Proposed_Model,Baseline_Model,Alternative,Statistic,P_Value,Median_Diff_BaselineMinusProposed,N_Blocks,Proposed_Better,Significant_at_alpha
+MAE,VMD_Optuna_TCN,GRU,baseline_error_metric > proposed_error_metric,63.0,0.1219482421875,0.7163335851354503,13,True,False
+MAE,VMD_Optuna_TCN,LSTM,baseline_error_metric > proposed_error_metric,90.0,0.000244140625,1.047155121928248,13,True,True
+MAE,VMD_Optuna_TCN,Transformer,baseline_error_metric > proposed_error_metric,88.0,0.0006103515625,1.1522315792492952,13,True,True
+RMSE,VMD_Optuna_TCN,GRU,baseline_error_metric > proposed_error_metric,77.0,0.0133056640625,1.1262263751510542,13,True,True
+RMSE,VMD_Optuna_TCN,LSTM,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,1.9076176252365404,13,True,True
+RMSE,VMD_Optuna_TCN,Transformer,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,1.3674890891647498,13,True,True
+MAPE,VMD_Optuna_TCN,GRU,baseline_error_metric > proposed_error_metric,80.0,0.0067138671875,1.8838803336226313,13,True,True
+MAPE,VMD_Optuna_TCN,LSTM,baseline_error_metric > proposed_error_metric,90.0,0.000244140625,1.9069314129103496,13,True,True
+MAPE,VMD_Optuna_TCN,Transformer,baseline_error_metric > proposed_error_metric,88.0,0.0006103515625,2.650928410345706,13,True,True
+SMAPE,VMD_Optuna_TCN,GRU,baseline_error_metric > proposed_error_metric,81.0,0.0052490234375,1.824146816465487,13,True,True
+SMAPE,VMD_Optuna_TCN,LSTM,baseline_error_metric > proposed_error_metric,90.0,0.000244140625,1.8242947901310957,13,True,True
+SMAPE,VMD_Optuna_TCN,Transformer,baseline_error_metric > proposed_error_metric,88.0,0.0006103515625,2.3807812547507545,13,True,True

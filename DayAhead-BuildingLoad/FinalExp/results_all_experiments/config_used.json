@@ -1,0 +1,111 @@
+{
+  "seed": 42,
+  "seeds": [
+    42
+  ],
+  "seq_len": 96,
+  "pred_len": 24,
+  "batch_size": 32,
+  "inference_batch_size": 128,
+  "epochs": 25,
+  "learning_rate": 0.0001,
+  "split_ratio": {
+    "train": 0.7,
+    "val": 0.1,
+    "test": 0.2
+  },
+  "target_buildings": [
+    "Wolf",
+    "Bull",
+    "Robin",
+    "Fox",
+    "Rat",
+    "Eagle"
+  ],
+  "test_buildings": [
+    "Wolf",
+    "Bull",
+    "Robin",
+    "Fox",
+    "Rat",
+    "Eagle",
+    "Hog"
+  ],
+  "holdout_start": "2017-12-01 00:00:00",
+  "holdout_end": "2017-12-31 23:00:00",
+  "hog_test_start": "2017-07-14 00:00:00",
+  "device": "cuda",
+  "models_to_run": [
+    "VMD_Optuna_TCN",
+    "GRU",
+    "LSTM",
+    "Transformer"
+  ],
+  "reuse_existing_checkpoints": false,
+  "save_long_prediction_file": true,
+  "run_ablation": true,
+  "tune_baselines": false,
+  "record_complexity": true,
+  "checkpoint_strategy": "final",
+  "reseed_per_model": true,
+  "vmd": {
+    "alpha": 1000,
+    "tau": 0,
+    "K": 6,
+    "DC": 0,
+    "init": 1,
+    "tol": 1e-07,
+    "scale_fit_target": "train_only",
+    "scale_fit_unseen": "own_full",
+    "eval_target": "original",
+    "decompose_mode": "causal"
+  },
+  "optuna": {
+    "n_trials": 10,
+    "objective_epochs": 3,
+    "lr_low": 0.0001,
+    "lr_high": 0.01
+  },
+  "tcn": {
+    "num_channels": [
+      16,
+      32,
+      64
+    ],
+    "kernel_size": 3,
+    "dropout": 0.1
+  },
+  "gru": {
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.1
+  },
+  "lstm": {
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.1
+  },
+  "transformer": {
+    "d_model": 64,
+    "nhead": 4,
+    "num_encoder_layers": 2,
+    "dim_feedforward": 256,
+    "dropout": 0.1
+  },
+  "statistics": {
+    "proposed_model": "VMD_Optuna_TCN",
+    "dm_loss": [
+      "squared",
+      "absolute"
+    ],
+    "dm_horizon": 1,
+    "alpha": 0.05,
+    "metrics_for_block_tests": [
+      "MAE",
+      "RMSE",
+      "MAPE",
+      "SMAPE"
+    ],
+    "max_plot_points_per_model": 20000
+  }
+}
