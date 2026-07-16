@@ -1,0 +1,13 @@
+Metric,Proposed_Model,Baseline_Model,Alternative,Statistic,P_Value,Median_Diff_BaselineMinusProposed,N_Blocks,Proposed_Better,Significant_at_alpha
+MAE,VMD_TCN,GRU,baseline_error_metric > proposed_error_metric,81.0,0.0052490234375,0.9911528976192989,13,True,True
+MAE,VMD_TCN,LSTM,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,1.6230190018573067,13,True,True
+MAE,VMD_TCN,Transformer,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,1.5107977451437193,13,True,True
+RMSE,VMD_TCN,GRU,baseline_error_metric > proposed_error_metric,90.0,0.000244140625,1.8603527936583406,13,True,True
+RMSE,VMD_TCN,LSTM,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,2.383623776591282,13,True,True
+RMSE,VMD_TCN,Transformer,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,2.236272371798481,13,True,True
+MAPE,VMD_TCN,GRU,baseline_error_metric > proposed_error_metric,89.0,0.0003662109375,2.2543063027893697,13,True,True
+MAPE,VMD_TCN,LSTM,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,2.386106346897048,13,True,True
+MAPE,VMD_TCN,Transformer,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,3.155628511574628,13,True,True
+SMAPE,VMD_TCN,GRU,baseline_error_metric > proposed_error_metric,89.0,0.0003662109375,2.1937994205349227,13,True,True
+SMAPE,VMD_TCN,LSTM,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,2.426187446123271,13,True,True
+SMAPE,VMD_TCN,Transformer,baseline_error_metric > proposed_error_metric,91.0,0.0001220703125,2.936737194188796,13,True,True

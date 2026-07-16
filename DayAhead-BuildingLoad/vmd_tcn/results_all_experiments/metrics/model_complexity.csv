@@ -1,0 +1,6 @@
+Seed,Model,Trainable_Params,Training_Time_sec,Learning_Rate,Epochs,Device
+42,GRU,152472,60.5033,0.0001,25,cuda
+42,LSTM,202264,89.6668,0.0001,25,cuda
+42,Transformer,253720,128.9694,0.0001,25,cuda
+42,TCN,133816,757.3997,0.0001,25,cuda
+42,VMD_TCN,133816,4534.6052,0.0001,25,cuda
